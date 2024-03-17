@@ -1,0 +1,12 @@
+[package]
+name = "bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+math = { git = "https://github.com/Banyc/math.git", rev = "9b4d01eb1ff4dfee6166080cdedcc3c5435af425" }
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+csv = "1"
+xshell = "0.2"
